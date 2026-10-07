@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>My portfolio Website</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+        <img src="image.png" alt="Shadrack">
+        </div>
+        <div class="link-container">
+            <nav class="links" aria-label="Main navigation">
+               <ul>
+                <li><a href="#heroSection" aria-current="home">HOME</a></li>
+                <li><a href="#about" aria-label="about">KNOW ABOUT ME</a></li>
+                <li><a href="#skills" aria-label="about">MY SKILLS</a></li>
+                <li><a href="#projects" aria-label="projects">VIEW PROJECTS</a></li>
+                <li><a href="#services" aria-label="services">SERVICES</a></li>
+                <li><a href="#contact" aria-label="contact">CONTACT ME</a></li>
+               </ul>
+            </nav>
+        </div>
+
+        <div class="dark-mode">
+            <i class="fa-regular fa-moon"></i>
+        </div>
+        <div class="hamburger-menu">
+            <i class="fa-duotone fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <aside class="mobile-sidebar">
+         <nav class="mobile-links" aria-label="Main navigation">
+               <ul>
+                    <li class="link active" > 
+                    <a href="#heroSection" aria-current="home"><i class="fa-regular fa-house"></i>HOME</a>
+                    </li>
+                    <li class="link" >
+                    <a href="#about" aria-label="about"><i class="fa-notdog-duo fa-solid fa-circle-info"></i>KNOW ABOUT ME</a>
+                </li>
+                <li class="link" >
+                    <a href="#skills" aria-label="projects"><i class="fa-brands fa-wirsindhandwerk"></i>MY SKILLS</a>
+                </li>
+                <li class="link" >
+                    <a href="#projects" aria-label="projects"><i class="fa-solid fa-diagram-project"></i>VIEW PROJECTS</a>
+                </li>
+                <li class="link" >
+                    <a href="#services" aria-label="contact"><i class="fa-brands fa-yelp"></i>SERVICES</a>
+                </li>
+                <li class="link" >
+                    <a href="#contact" aria-label="services"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>CONTACT ME</a>
+               </li>
+               </ul>
+            </nav>
+    </aside>
+    <main>
+        <section class="hero-section" id="heroSection">
+        <div class="left">
+            <h1 class="hello">Hello...!</h1> <br><br>
+            <h1 class="name">I'm <span style="background: linear-gradient(45deg, red, blue);
+    background-clip: text; color: transparent;">Ouma Shadrack</span>,</h1><br><br>
+            <h2 class="skill">Website Developer and Designer</h2>
+            <div class="hero-section-button">
+          <a href="cv.pdf" class="btn-download-cv" download>
+            <i class="fa-solid fa-download"></i>Download CV
+          </a>
+          <a href="#contact" class="btn-hire-me">Hire Me</a>
+           </div>
+        </div>
+        <div class="right">
+            <img src="profile.png" alt="profile">
+        </div>
+        </section>
+        <hr>
+        <section class="about-section-container" id="about">
+            <h1 class="head">About Me</h1>
+            <div class="about-section">
+            <div class="left">
+            <img src="about.png" alt="image">
+            </div>
+            <div class="right">
+                <h1>GET TO KNOW ME</h1>
+                <h2>About Me</h2>
+                <p>"I am an aspiring web developer passionate about creating clean, responsive, and user-friendly websites. With growing expertise in HTML, CSS, and JavaScript, I enjoy turning ideas into functional designs that balance creativity with practicality. My goal is to continue learning, building, and sharing projects that showcase both technical skill and innovative thinking." </p>
+            </div>
+            </div>
+            <hr>
+        </section>
+        <section class="skills-section" id="skills">
+    <h1 class="head">My Skills</h1>
+
+    <p class="skills-intro">
+        Here are some of the technologies I use to build and design
+        interactive and responsive websites.
+    </p>
+
+    <div class="skills-container">
+
+        <!-- HTML -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+
+            <h3>HTML</h3>
+
+            <p>
+                I use HTML to create the structure and content
+                of web pages using semantic and well-organized markup.
+            </p>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+
+            <h3>CSS</h3>
+
+            <p>
+                I use CSS to style websites, create responsive layouts,
+                and add animations, transitions, and visual effects.
+            </p>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-brands fa-js"></i>
+            </div>
+
+            <h3>JavaScript</h3>
+
+            <p>
+                I use JavaScript to add interactivity and dynamic
+                behavior to websites.
+            </p>
+        </div>
+
+    </div>
+   
+</section>
+ <hr>
+        <section class="projects-section" id="projects">
+            <h1  class="head">View Projects</h1>
+            <div class="view-projects-container">
+            <h3>Sample Projects I have worked on</h3>
+            <p> Each project reflects my journey of learning and growth in web development. These projects showcase my skills in HTML, CSS, and JavaScript, while highlighting my ability to solve problems</p>
+            <div class="project-card">
+            <div class="project1">
+                <div class="project-image">
+                 <img src="agric.png" alt="">
+                 </div>
+                 <div class="project-content">
+                 <h3>AgriTech Website</h3>
+                 <p>A fully responsive Agricultural site that easens the cordination between the farmers and the business scope</p>
+                 <p class="tech-title">technologies used:</p>
+                 <div class="technologies">
+                 <span>
+                    <i class="fa-brands fa-html5"></i>
+                    HTML
+                </span>
+                 <span>
+                     <i class="fa-brands fa-css3-alt"></i>
+                    CSS
+                 </span>
+                 <span>
+                     <i class="fa-brands fa-js"></i>
+                    JavaScript
+                </span>
+                 </div>
+                 <div class="project-links">
+
+            <a href="http://192.168."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="live-btn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Live Demo
+            </a>
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-btn">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+        </div>
+
+                 </div>
+            </div>
+             <div class="project2">
+                <div class="project-image">
+                  <img src="passenger.png" alt="">
+                  </div>
+                  <div class="project-content">
+                  <h3>Passenger Count Website</h3>
+                  <p>Modernised Passenger Count site that helps control the availance of any passenger inside the pass</p>
+                  <p class="tech-title">technologies used:</p>
+                  <div class="technologies">
+                 <span>
+                     <i class="fa-brands fa-html5"></i>
+                    HTML
+                    </span>
+                 <span>
+                     <i class="fa-brands fa-css3-alt"></i>
+                    CSS
+                 </span>
+                 <span>
+                     <i class="fa-brands fa-js"></i>
+                    JavaScript
+                </span>
+                 </div>
+                 <div class="project-links">
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="live-btn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Live Demo
+            </a>
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-btn">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+        </div>
+
+                 </div>
+            </div>
+             <div class="project3">
+                <div class="project-image">
+                  <img src="yellow.png" alt="">
+                  </div>
+                  <div class="project-content">
+                  <h3>Tourism Website</h3>
+                  <p>This helps both the external and internal tourists acquire services within the country</p>
+                  <p class="tech-title">technologies used:</p>
+                  <div class="technologies">
+                 <span>
+                     <i class="fa-brands fa-html5"></i>
+                    HTML
+                </span>
+                 <span>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    CSS
+                </span>
+                 <span>
+                    <i class="fa-brands fa-js"></i>
+                    JavaScript
+                </span>
+                 </div>
+                 <div class="project-links">
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="live-btn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Live Demo
+            </a>
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-btn">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+        </div>
+
+                 </div> 
+            </div>
+            <div class="project4">
+                <div class="project-image">
+                <img src="calc.png" alt="">
+                </div>
+                <div class="project-content">
+                <h3>A Mortgage Calculator</h3>
+                <p>This is a simple calculator that helps in performance of arithmetic problems</p>
+                <p class="tech-title">technologies used:</p>
+                <div class="technologies">
+                 <span>
+                    <i class="fa-brands fa-html5"></i>
+                    HTML
+                </span>
+                 <span>
+                     <i class="fa-brands fa-css3-alt"></i>
+                    CSS
+                </span>
+                 <span>
+                     <i class="fa-brands fa-js"></i>
+                    JavaScript
+                </span>
+                 </div>
+                 <div class="project-links">
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="live-btn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Live Demo
+            </a>
+
+            <a href=""
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-btn">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+        </div>
+
+                 </div>  
+            </div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section class="services-section" id="services">
+
+    <h1 class="head">My Services</h1>
+
+    <p class="services-intro">
+        I create responsive and interactive websites with a focus on
+        clean design, usability, and a smooth user experience.
+    </p>
+
+    <div class="services-container">
+
+        <!-- Website Development -->
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>Website Development</h3>
+
+            <p>
+                I build structured and functional websites using
+                HTML, CSS, and JavaScript.
+            </p>
+
+        </div>
+
+
+        <!-- Responsive Design -->
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+
+            <h3>Responsive Web Design</h3>
+
+            <p>
+                I design websites that adapt smoothly to different
+                screen sizes, including desktops, tablets, and phones.
+            </p>
+
+        </div>
+
+
+        <!-- Interactivity -->
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <h3>Website Interactivity</h3>
+
+            <p>
+                I add interactive features using JavaScript to make
+                websites more engaging and user-friendly.
+            </p>
+
+        </div>
+
+
+        <!-- Website Improvements -->
+        <div class="service-card">
+
+            <div class="service-icon">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+
+            <h3>Website Improvements</h3>
+
+            <p>
+                I improve the layout, styling, responsiveness, and
+                overall appearance of existing webpages.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<hr>
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+
+    <h1 class="head">Contact Me</h1>
+
+    <p class="contact-intro">
+        Have a project in mind or want to get in touch?
+        Feel free to reach out to me.
+    </p>
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                I'm open to discussing web development projects,
+                ideas, and opportunities to learn and grow.
+            </p>
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <h4>Email</h4>
+                        <p>shadrackonyango252@gmail.com</p>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+254 759752338</p>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div>
+                        <h4>Location</h4>
+                        <p>Kenya</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Social Media -->
+            <div class="contact-socials">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+
+            <form>
+
+                <div class="input-group">
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label for="email">Your Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label for="message">Your Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+                </div>
+
+
+                <button type="submit" class="contact-btn">
+                    Send Message
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+    </main>
+    <!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Logo / Introduction -->
+        <div class="footer-brand">
+
+            <h2>Shadrack</h2>
+
+            <p>
+                Building responsive and interactive websites
+                with HTML, CSS, and JavaScript.
+            </p>
+
+        </div>
+
+
+        <!-- Footer Navigation -->
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="#heroSection">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <!-- Social Media -->
+        <div class="footer-socials">
+
+            <h3>Follow Me</h3>
+
+            <div class="social-icons">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Shadrack. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+    <script src="script.js"></script>
+    </body>
+</html>

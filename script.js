@@ -10,6 +10,7 @@ hamburgerMenu.addEventListener('click' ,() =>{
     mobileLinks.classList.toggle('active')
 })
 
+
 }
 
 links.forEach(link =>{
@@ -22,6 +23,18 @@ links.forEach(link =>{
         // mobileLinks.classList.remove('active')
     })
 })
+document.addEventListener('click', (e) => {
+
+    if (
+        mobileSidebar &&
+        !mobileSidebar.contains(e.target) &&
+        !hamburgerMenu.contains(e.target)
+    ) {
+       // console.log("twgyuah")
+        mobileSidebar.classList.remove('active');
+    }
+
+});
 openSideBar()
 
 

@@ -299,9 +299,11 @@ header{
    justify-content: space-between;
    gap: 60px;
    padding: 60px 8%;
+   
 }
 .left{
-   color: #703090;
+   color: #77289e;
+   line-height: 1.7;
 }
 .right img{
    height: 400px;
@@ -948,7 +950,7 @@ header{
 html {
     scroll-behavior: smooth;
 }
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
 
     .contact-section {
         width: 100%;
@@ -1113,7 +1115,9 @@ html {
    .hero-section{
       flex-direction: column;
       text-align: center;
-      padding: 40px 5%;
+       justify-content: flex-start;
+        gap: 40px;
+      padding: 100px 5% 40px;
    }
    .right img{
       width: 280px;
